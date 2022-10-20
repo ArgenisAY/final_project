@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bc7a912712.js" crossorigin="anonymous"></script>
+    <title>login</title>
+</head>
+
+<body>  
+    <main>
+        <a href="./index.html" class="logo">
+            <span class="material-icons md-32 md-dark">
+                home
+            </span>
+        </a>
+        <section>
+            <article class="img">
+            </article>
+            <article class="form-container">
+                <form class="form" action="#" id="form">
+                    <h2>Contact Information</h2>
+                    <ul>
+                        <li>
+                            <label for="name" class="form-lb">Name</label>
+                            <div class="inputs-container">
+                                <span class="material-icons md-18 md-dark">
+                                    account_circle
+                                </span>
+                                <input type="text" id="name" name="user_name" placeholder="Enter your name..."
+                                    autofocus>
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <small>Error message</small>
+                            </div>
+                        </li>
+                        <li>
+                            <label for="mail" class="form-lb">E-mail</label>
+                            <div class="inputs-container">
+                                <span class="material-icons md-18 md-dark">
+                                    email
+                                </span>
+                                <input type="email" id="mail" name="user_mail" placeholder="Enter your email..."
+                                    autofocus>
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <small>Error message</small>
+                            </div>
+                        </li>
+                        <li>
+                            <label for="phone" class="form-lb">Phone Number</label>
+                            <div class="inputs-container">
+                                <span class="material-icons md-18 md-dark">
+                                    phone
+                                </span>
+                                <input type="tel" id="phone" name="user_phone" placeholder="Enter your phone number..."
+                                    autofocus>
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <small>Error message</small>
+                            </div>
+                        </li>
+                        <li>
+                            <label for="pass" class="form-lb">Password</label>
+                            <div class="inputs-container">
+                                <span class="material-icons md-18 md-dark">
+                                    lock
+                                </span>
+                                <input type="password" id="pass" name="user_pass" placeholder="Enter your password..."
+                                    autofocus>
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <small>Error message</small>
+                            </div>
+                        </li>
+                        <li>
+                            <label for="pass" class="form-lb">Password Check</label>
+                            <div class="inputs-container">
+                                <span class="material-icons md-18 md-dark">
+                                    lock
+                                </span>
+                                <input type="password" id="pass_2" name="user_pass"
+                                    placeholder=" Repeat your password..." autofocus>
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                                <small>Error message</small>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="btn-container">
+                        <button type="submit" class="sub-btn">Sign Up</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+    <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
